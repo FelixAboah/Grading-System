@@ -10,7 +10,7 @@ int main() {
 
 
 
-    printf("The Grading System\n");
+    printf("THE GRADING SYSTEM\n");
     printf("================================\n");
     printf("                              \n");
     printf("Hello, Welcome To The Grading System!\n");
