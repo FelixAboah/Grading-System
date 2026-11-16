@@ -6,7 +6,7 @@
 
 int main() {
     float assignmentScore, quizScore, midsemScore, finalExamScore, totalScore, markslost;
-    char indexNumber[11]; // Assuming index number is a string of max 10 characters
+    char indexNumber[10]; // Assuming index number is a string of max 10 characters
 
 
 
@@ -38,14 +38,14 @@ int main() {
 
     totalScore = assignmentScore + quizScore + midsemScore + finalExamScore;
     printf("--------------------------------\n");
-    printf("Total score: %.2f\n", totalScore);
+    printf("Total score: %.1f%%\n", totalScore);
     printf("--------------------------------\n");
     markslost = 100 - totalScore;
-    printf("Marks lost: %.2f\n", markslost);
+    printf("Marks lost: %.1f%%\n", markslost);
 
 
     printf("                              \n");
-    printf("Thank you for using the Grading System!\n");
+    printf("Thank you for using T he Grading System!\n");
     printf("Have a great day!\n");
     
     return 0;
